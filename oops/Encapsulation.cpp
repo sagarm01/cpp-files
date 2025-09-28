@@ -1,6 +1,6 @@
 // Learning encapsulation
 // like a capsule
-// it also promotes the idea of data hiding as part of security
+// it also promotes the idea of data security
 // access modifiers -> Public, Private, Protected
 
 #include <iostream>

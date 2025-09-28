@@ -6,8 +6,9 @@
 using namespace std;
 
 // virtual means just declaring and not defiing, whosover extends it needs to define it
-
 // abstract class cannot be directly intancetiated,
+// it also promotes the idea of data security
+
 class Car
 {
 public:
