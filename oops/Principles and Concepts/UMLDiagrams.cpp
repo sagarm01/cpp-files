@@ -63,5 +63,12 @@ in this case these cannot exists without chair
 arms -----<.> chair
 
 
+
+//////////////
+Sequence Diagram
+
+-> 
+
+
 */
 
