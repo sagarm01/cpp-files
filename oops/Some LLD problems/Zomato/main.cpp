@@ -7,6 +7,9 @@
 
 using namespace std;
 
+// LINK TO THE FULL CODE
+// https://github.com/adityatandon15/LLD/tree/main/Lecture%2011/C%2B%2B%20Code/Tomato
+
 int main() {
     // Create TomatoApp facade
     TomatoApp* tomato = new TomatoApp();
