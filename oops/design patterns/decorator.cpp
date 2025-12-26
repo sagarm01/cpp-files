@@ -7,7 +7,7 @@ class Character
 {
 public:
     virtual string getAbilities() = 0;
-    ~Character() {}
+    virtual ~Character() {}
 };
 
 class Mario : public Character
