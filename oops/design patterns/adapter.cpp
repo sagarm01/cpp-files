@@ -23,8 +23,8 @@ class XMLAdapter : public IReports {
    private:
    XMLProvider* xmlProvider;
    public:
-   XMLAdapter(){
-    xmlProvider = new XMLProvider();
+   XMLAdapter(XMLProvider* m){
+    xmlProvider = m;
    }
    ~XMLAdapter(){
     delete xmlProvider;
@@ -36,6 +36,7 @@ class XMLAdapter : public IReports {
 };
 
 int main(){
-   IReports* jsonGiver = new XMLAdapter();
+   XMLProvider* myxmlProvider = new XMLProvider();
+   IReports* jsonGiver = new XMLAdapter(myxmlProvider);
    cout<<jsonGiver->getJsonData();
 }
